@@ -175,3 +175,28 @@ h2 {
     width: 20%;
     height: 50vh;
 }
+
+.index3{
+    background-image: url(../img/index3.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.details{
+    display: inline-flex;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+
+.phone {
+    padding-right: 700px;
+}
+
+.details i {
+    padding-top: 30px;
+    padding-left: 20px;
+}
+
+.email {
+    padding-right: 350px;
+}
