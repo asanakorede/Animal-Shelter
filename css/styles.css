@@ -32,6 +32,11 @@ body {
     text-decoration: none;
 }
 
+.navbar a:hover {
+    text-decoration: underline;
+    transition: 0.5s ease-in-out;
+}
+
 h1 {
     font-family: 'Work Sans', sans-serif;
     font-weight: 30px;
@@ -42,20 +47,19 @@ h1 {
 .content h2 {
     color: teal;
     text-align: center;
-    padding-top: 150px;
+    padding-top: 200px;
     font-size: 50px;
     font-weight: 40px;
     float: right;
     padding-right: 20px;
-    border: 2px solid white;
-    padding-bottom: 150px;
-    background-color: antiquewhite;
-    padding-left: 40px;
-    margin-right: 40px;
+    border: 2px white solid;
+    background-color: white;
+    padding-bottom: 200px;
 }
 
 .content h2 a {
     text-decoration: none;
+    padding-left: 20px;
 }
 
 .content h2 a:hover {
@@ -74,7 +78,6 @@ button {
     border-radius: 20px;
     border: 0;
     cursor: pointer;
-
 }
 
 button:hover {
@@ -85,7 +88,7 @@ button:hover {
 .btn {
     display: flex;
     justify-content: space-between;
-    padding-top: 250px;
+    padding-top: 130px;
     padding-left: 80px;
     padding-right: 80px;
 }
@@ -102,12 +105,73 @@ button:hover {
 #Pets {
     color: steelblue;
     font-family: 'Work Sans', sans-serif;
-    font-size: 35px;
+    font-size: 40px;
     text-align: center;
-    padding-top: 35px;
+    padding-top: 65px;
 }
 
 #trademark {
     color: blueviolet;
     font-weight: 100px;
+}
+
+button a {
+    text-decoration: none;
+}
+
+.index6 {
+    background-image: url(../img/bck2.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+img {
+    width: 20%;
+    height: 50vh;
+}
+
+.dog-img {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 150px;
+}
+
+h2 {
+    text-align: center;
+    color: indigo;
+    padding-top: 30px;
+}
+
+.index5 {
+    background-image: url(../img/index5.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.cat-img {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 150px;
+}
+
+.cat-img img {
+    width: 20%;
+    height: 50vh;
+}
+
+.index7{
+    background-image: url(../img/index7.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.pet-img{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 150px;
+}
+
+.pet-img img{
+    width: 20%;
+    height: 50vh;
 }
