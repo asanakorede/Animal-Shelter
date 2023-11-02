@@ -11,7 +11,7 @@ body {
     display: flex;
     justify-content: space-between;
     box-sizing: border-box;
-    border: white solid 5px; 
+    border: white solid 5px;
     align-items: center;
 }
 
@@ -37,4 +37,77 @@ h1 {
     font-weight: 30px;
     font-size: 30px;
     padding-left: 50px;
+}
+
+.content h2 {
+    color: teal;
+    text-align: center;
+    padding-top: 150px;
+    font-size: 50px;
+    font-weight: 40px;
+    float: right;
+    padding-right: 20px;
+    border: 2px solid white;
+    padding-bottom: 150px;
+    background-color: antiquewhite;
+    padding-left: 40px;
+    margin-right: 40px;
+}
+
+.content h2 a {
+    text-decoration: none;
+}
+
+.content h2 a:hover {
+    text-decoration: underline;
+}
+
+.index2 {
+    background-image: url(../img/bck3.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+button {
+    background-color: white;
+    padding: 10px 15px;
+    border-radius: 20px;
+    border: 0;
+    cursor: pointer;
+
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+}
+
+.btn {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 250px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+
+#cat:hover {
+    background-color: mediumslateblue;
+}
+
+#dog:hover {
+    background-color: darkred;
+}
+
+#Pets {
+    color: steelblue;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 35px;
+    text-align: center;
+    padding-top: 35px;
+}
+
+#trademark {
+    color: blueviolet;
+    font-weight: 100px;
 }
